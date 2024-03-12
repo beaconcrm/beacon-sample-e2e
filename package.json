@@ -1,0 +1,25 @@
+{
+  "name": "beacon-sample-e2e",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "browsers": "npx playwright install",
+    "start": "npx playwright test --ui",
+    "test": "npx playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beaconcrm/beacon-sample-e2e.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beaconcrm/beacon-sample-e2e/issues"
+  },
+  "homepage": "https://github.com/beaconcrm/beacon-sample-e2e#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.42.1",
+    "@types/node": "^20.11.26"
+  }
+}
