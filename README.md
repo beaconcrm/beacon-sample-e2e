@@ -1,10 +1,19 @@
-# E2E Interview Repo
+# Beacon sample e2e
 
-Demo repo with playwright already set up
+This repository will help you e2e test a beacon form. To get started, follow the installation instructions below. After running, you should see a beacon form load in the playwright gui.
 
-## Set up
+## Task
+In the `example.spec.js` file, there are a number of test scenarios. The task is to write an e2e test for each of these cases.
+
+## Prerequisites
+A modern version of node - v16-v20
+
+## Installation
 
 - `npm install`
 - `npm run browsers` to install playwright browsers
+
+## Usage
+
 - `npm test` to run tests in commmand line
 - `npm start` to run playwright in ui / debug mode
