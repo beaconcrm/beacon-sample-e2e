@@ -16,6 +16,21 @@ Date: (any future date)
 CVC: 123
 ```
 
+## Selecting iFrame
+
+There is a known issue where the credit card form can be hard to select with playwright - this is because the id of the iframe
+changes with each refresh. This selector should work. You will need to change the last part to target different fields:
+
+```
+// Select the card number field
+await page
+    .locator(".jss131")
+    .first()
+    .frameLocator("iFrame")
+    .first()
+    .getByPlaceholder("1234 1234 1234");
+```
+
 ## Prerequisites
 
 A modern version of node - v16-v20
