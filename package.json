@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/beaconcrm/beacon-sample-e2e#readme",
   "devDependencies": {
-    "@playwright/test": "^1.42.1",
+    "@playwright/test": "^1.56.1",
     "@types/node": "^20.11.26"
   }
 }
